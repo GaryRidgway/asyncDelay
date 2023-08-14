@@ -5,7 +5,7 @@
  * @param {number} time
  * @param {function} action
  */
-function delaysync(time, action) {
+function asyncDelay(time, action) {
 
   // Create a promise that will delay.
   const delay = (delayInMs) => {
