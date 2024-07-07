@@ -2,7 +2,7 @@
  * Delay an `action` for `time`
  * and then run the `action` asynchronously to other JavaScript.
  *
- * @param {number} time
+ * @param {number} time // Measured in milliseconds (1000ms = 1s).
  * @param {function} action
  */
 function asyncDelay(time, action) {

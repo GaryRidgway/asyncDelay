@@ -1,0 +1,24 @@
+{
+  "name": "asyncdelay",
+  "version": "1.0.0",
+  "description": "A simple asynchronous delay library.",
+  "main": "asyncDelay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryRidgway/asyncDelay.git"
+  },
+  "keywords": [
+    "asynchronous",
+    "async",
+    "delay"
+  ],
+  "author": "Alan Way",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaryRidgway/asyncDelay/issues"
+  },
+  "homepage": "https://github.com/GaryRidgway/asyncDelay#readme"
+}
