@@ -5,7 +5,7 @@
  * @param {number} time // Measured in milliseconds (1000ms = 1s).
  * @param {function} action
  */
-function asyncDelay(time, action) {
+const asyncDelay = (time, action) => {
 
   // Create a promise that will delay.
   const delay = (delayInMs) => {
@@ -21,3 +21,6 @@ function asyncDelay(time, action) {
   // Finally, call the function that puts it all together.
   asyncDelayedAction();
 }
+
+const _asyncDelay = asyncDelay;
+export { _asyncDelay as asyncDelay };
