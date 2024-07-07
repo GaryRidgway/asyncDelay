@@ -2,10 +2,10 @@
  * Delay an `action` for `time`
  * and then run the `action` asynchronously to other JavaScript.
  *
- * @param {number} time // Measured in milliseconds (1000ms = 1s).
+ * @param {number} time
  * @param {function} action
  */
-const asyncDelay = (time, action) => {
+function asyncDelay(time, action) {
 
   // Create a promise that will delay.
   const delay = (delayInMs) => {
@@ -21,6 +21,3 @@ const asyncDelay = (time, action) => {
   // Finally, call the function that puts it all together.
   asyncDelayedAction();
 }
-
-const _asyncDelay = asyncDelay;
-export { _asyncDelay as asyncDelay };
